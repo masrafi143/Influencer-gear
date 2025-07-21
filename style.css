@@ -66,6 +66,45 @@ nav a{
     padding: 20px;
 }
 
+/* popular collection section */
+.popular-collection{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.popular-collection h2{
+    font-size: 2rem;
+    text-align: center;
+}
+.cards-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.collection-card{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+.collection-card img{
+    width: 100%;
+}
+.collection-card p{
+    margin: 0;
+    color: #787885;
+    font-weight: bold;
+}
+.collection-card h1{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+.collection-card h3{
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin:0 0 10px 0;
+}
+
 /* featured products section */
 .featured-products{
     display: flex;
