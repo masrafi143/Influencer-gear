@@ -1,6 +1,7 @@
 /* shared css */
 .text-primary{
     color: #3A3A3A;
+    font-weight: bold;
 }
 .btn-primary{
     background-color: #E02C6D;
@@ -47,7 +48,6 @@ nav a{
     max-width: 500px;
 }
 .banner-content h2{
-    font-weight: bold;
     font-size: 3rem;
     margin: 0;
 }
@@ -59,4 +59,22 @@ nav a{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+/* featured products section */
+.featured-products{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-title{
+    color: #0A0826;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0;
+}
+.featured-description{
+    max-width: 400px;
 }
