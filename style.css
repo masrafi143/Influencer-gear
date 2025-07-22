@@ -135,3 +135,58 @@ footer h2{
     font-weight: bold;
     font-size: 1.5rem;
 }
+/* small devices */
+@media screen and (max-width: 576px) {
+    header{
+        margin: 0 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sponser{
+        flex-wrap: wrap;
+        gap: 10px;
+    }    
+    .cards-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 20px;
+    }
+    .featured-products{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
+    .featured-info{
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+/* medium devices */
+@media screen and (min-width:577px) and (max-width: 768px) {
+    header{
+        margin: 0 20px;
+    }
+    .sponser{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .cards-section{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 20px;
+    }
+    .featured-products{
+        gap: 40px;
+        margin: 0 20px;
+    }
+}
